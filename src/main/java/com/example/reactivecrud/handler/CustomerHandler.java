@@ -22,4 +22,10 @@ public class CustomerHandler {
                 .contentType(MediaType.APPLICATION_JSON)
                 .body(customerService.findAll(), Customer.class);
     }
+    public Mono<ServerResponse> getCustomerByName (ServerRequest request) {
+        return ServerResponse
+                .ok()
+                .contentType(MediaType.APPLICATION_JSON)
+                .body(customerService.findByName(request.pathVariable("name")), Customer.class);
+    }
 }
