@@ -1,7 +1,6 @@
 package com.example.reactivecrud.model;
 
 import lombok.*;
-import lombok.experimental.WithBy;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.relational.core.mapping.Column;
 import org.springframework.data.relational.core.mapping.Table;
