@@ -2,7 +2,6 @@ package com.example.reactivecrud.handler;
 
 import com.example.reactivecrud.model.Customer;
 import com.example.reactivecrud.service.CustomerService;
-import lombok.RequiredArgsConstructor;
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Service;
 import org.springframework.web.reactive.function.server.ServerRequest;
