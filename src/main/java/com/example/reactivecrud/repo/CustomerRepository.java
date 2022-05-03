@@ -1,0 +1,7 @@
+package com.example.reactivecrud.repo;
+
+import com.example.reactivecrud.model.Customer;
+import org.springframework.data.repository.reactive.ReactiveCrudRepository;
+
+public interface CustomerRepository extends ReactiveCrudRepository<Customer, Integer> {
+}

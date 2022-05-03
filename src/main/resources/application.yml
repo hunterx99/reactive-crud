@@ -1,0 +1,16 @@
+spring:
+  r2dbc:
+    url: r2dbc:postgresql://127.0.0.1:5432/customer
+    username: postgres
+    password: postgres
+
+  profiles:
+    active: dev
+
+logging:
+  level:
+    org.springframework.r2dbc: DEBUG
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui-custom.html
